@@ -1,0 +1,86 @@
+.container {
+	font-family: "Arial", sans-serif;
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.post {
+	position: relative;
+	background-color: #fff;
+	margin-bottom: 20px;
+	padding: 15px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+	color: #4c566a;
+	margin-bottom: 10px;
+	font-size: 1rem;
+}
+
+.description {
+	color: #555;
+}
+
+.read_more_btn {
+	display: inline-block;
+	margin-top: 10px;
+	padding: 10px 20px;
+	text-align: center;
+	background-color: #4c566a;
+	color: #fff;
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+.postBookmark {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+	font-size: 24px;
+}
+
+.bookmarksButton {
+	text-align: right;
+	margin-top: 10px;
+}
+.bookmarksLink {
+	width: fit-content;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	padding: 8px;
+	color: white;
+	transition: color 0.3s, box-shadow 0.3s;
+	background-color: #4c566a;
+	margin: 10px 0px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.bookmarksLink:hover {
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.bookmarkIcon {
+	margin-right: 4px;
+	font-size: 18px;
+	color: white;
+}
+
+/* Responsive styles */
+@media screen and (min-width: 768px) {
+	.container {
+		max-width: 800px;
+	}
+	.heading {
+		font-size: 1.5rem;
+	}
+	.post {
+		margin: 20px auto;
+	}
+}

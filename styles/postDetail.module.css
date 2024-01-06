@@ -1,0 +1,20 @@
+.container {
+	font-family: "Arial", sans-serif;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.title {
+	color: #4c566a;
+}
+
+.postTitle {
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+	color: #333;
+}
+
+.postBody {
+	color: #555;
+}

@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+To Install and Run In your Pc:
 
-## Getting Started
+1-Navigate to Your Project Directory:
+Open a terminal and navigate to the root directory of your Next.js project.
 
-First, run the development server:
+2-Install Dependencies:
+Run the following command to install the required dependencies. Ensure that you have Node.js and npm (Node Package Manager) installed on your machine.
 
-```bash
+npm install
+
+3-Run the Application:
+After the installation is complete, you can start your Next.js application using the following command:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4-Access Your Application:
+Once the development server is running, open your web browser and go to http://localhost:3000
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Application Structure:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Pages Directory:
 
-## Learn More
+index.js: Main page for post listing with a search feature and pagination.
+[dynamic].js: Dynamic page for post details, where [dynamic] represents the post ID.
+bookmarks.js: Page for displaying bookmarked posts.
 
-To learn more about Next.js, take a look at the following resources:
+Components Directory:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Search.js: Component for the search feature.
+Pagination.js: Component for handling pagination.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Context Directory:
 
-## Deploy on Vercel
+bookmarkContext.js: Context file for managing bookmarked posts.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Layout Directory:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+layout/: Folder for layout-related components.
+layout.js: Component for overall layout.
